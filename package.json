@@ -1,0 +1,17 @@
+{
+  "name": "ucube-backend",
+  "version": "1.0.0",
+  "description": "Backend for youcube",
+  "keywords": [
+    "javascript",
+    "backend",
+    "spidey"
+  ],
+  "license": "ISC",
+  "author": "Ankit Savaiya",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
