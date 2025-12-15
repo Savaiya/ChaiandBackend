@@ -1,5 +1,5 @@
 {
-  "name": "ucube-backend",
+  "name": "backendofp",
   "version": "1.0.0",
   "description": "Backend for youcube",
   "keywords": [
@@ -7,11 +7,23 @@
     "backend",
     "spidey"
   ],
+  "homepage": "https://github.com/Savaiya/ChaiandBackend#readme",
+  "bugs": {
+    "url": "https://github.com/Savaiya/ChaiandBackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Savaiya/ChaiandBackend.git"
+  },
   "license": "ISC",
   "author": "Ankit Savaiya",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
